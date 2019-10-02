@@ -1,0 +1,231 @@
+
+/* Medium layout :1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    
+}
+
+
+
+/* Tablet layout :768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    
+    .navbar-brand {
+    font-size: 22px;
+    padding-left: 88%;
+}
+
+.navbar-right {
+    margin-right: 1%;
+    font-size: 18px;
+}
+
+#total-info {
+    margin-left: -7%;
+    margin-top: 8%;
+    font-family: Playfair;
+    font-size: 15px;
+}
+
+.social-list {
+    margin-top: 4%;
+    margin-left: -5%;
+}
+
+.service-part-start {
+    margin-top: 20%;
+    height: 650px;
+}
+
+.service-part-start {
+    margin-top: 22%;
+    height: 653px;
+}
+
+.service-icon{margin-left: -37%;}
+
+.service-content {
+    margin-top: -144%;
+}
+
+#photography{margin-top: -84%;}
+
+#clients {
+    background-color: #FAFAFA;
+    margin-top: -24%;
+    height: 650px;
+}
+    
+.service-part-start{margin-top: 12%}
+    
+ .single-work:hover:before {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid blue;
+    content: '';
+    position: absolute;
+    width: 93%;
+    min-height: 50%;
+}
+  
+  .second-work:hover:before {
+    background:rgba(0, 0, 0, 0.7);
+    border: 2px solid red;
+    content: '';
+    position: absolute;
+    width: 93%;
+    min-height:86%;
+    
+}  
+    
+    
+    
+}
+
+
+/* Mobile layout :320px. */
+@media only screen and (max-width:767px) {
+
+.navbar-brand {
+    font-size: 22px;
+    padding-left: 12px;
+}
+#header-part{height: 815px;}
+
+.my-name{font-size: 29px;}
+.typer-title {font-size: 26px;}
+
+.navbar-brand {
+    font-size: 19px;
+}
+
+#total-info {
+    margin-left: -15%;
+    margin-top: 8%;
+    font-family: Playfair;
+    font-size: 15px;
+}
+
+.social-list {
+    margin-top: 4%;
+    margin-left: -11%;
+}
+
+#services {
+    background-color: #FAFAFA;
+    margin-top: 14%;
+    height: 1600px;
+}
+
+.service-part-start {
+    margin-top: 7%;
+    height: 650px;
+}
+.service-icon{
+   margin-left: -2%;
+}
+
+.service-content {
+    margin-top: -78%;
+}
+
+
+.bordered {
+   border-right: none;
+     border-left: none;
+}
+
+.services-separator {
+    width: none;
+    margin: none;
+    height:none;
+   
+}
+.effect {
+    height: 300px;
+    width: 330px;
+       
+}
+
+
+#contact-start {
+    margin-top: 10%;
+}
+
+.contact-item .c-icon {
+    
+    width: 50px;
+    height: 50px;
+   
+}
+
+.contact-item .c-icon .fa {
+    font-size: 22px;
+    line-height: 51px;
+    color: #fafafa;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px 16px;
+    color: #232323;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-top: 3%;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #333;
+    outline: none;
+    background-color: #333;
+    color: #fafafa;
+    cursor: pointer;
+    height: 41px;
+    width: 145px;
+}
+
+.copy-text {
+    font-family: Playfair;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+}
+.services-separator {
+    
+  background:#FAFAFA;
+}
+    #store-online{margin-top: -87%;}
+  
+    #photography {margin-top: -82%;}
+    
+    #clients {
+    background-color: #FAFAFA;
+    margin-top: -57%;
+    height: 905px;
+}
+    
+    .single-work:hover:before {
+ 
+    width: 92%;
+    min-height:50%;
+    
+}
+    
+    .second-work:hover:before {
+ 
+    width: 92%;
+    min-height:50%;
+    
+}
+    
+    
+}
+
+/* Wide mobile layout :480px. */
+@media only screen and (min-width:480px) and (max-width:767px) {
+    
+}
